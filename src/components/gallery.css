@@ -1,0 +1,48 @@
+.auto-responsive-cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    padding: 1rem;
+    grid-gap:1rem;
+}
+
+.auto-responsive-cards > div {
+    height: 250px;
+    background-size:cover;
+      
+}
+
+.bg1 {
+    background:url("../assets/Butter_Rose.jpg");
+}
+
+.bg2 {
+    background:url("../assets/cinnamon_rolls.jpg");
+}
+
+.bg3 {
+    background:url("../assets/custom.jpg");
+}
+
+.bg4 {
+    background:url("../assets/ginger_MapleCake.jpg");
+}
+
+.bg5 {
+    background:url("../assets/redVelvet.jpg");
+}
+
+.bg6 {
+    background:url("../assets/Roses.jpg");
+}
+
+.bg7 {
+    background:url("../assets/strawberryshortcake.jpg");
+}
+
+.bg8 {
+    background:url("../assets/yellowcake_choc.jpg");
+}
+
+img {
+    width: 100%;
+}
