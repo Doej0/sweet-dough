@@ -1,10 +1,12 @@
+import "./main.css"
+
 export default function Announcement() {
   return (
     <>
       <article>
-        <div>
+        <article className="content-box">
           <h1>CALL TO ACTION LIVES HERE</h1>
-        </div>
+        </article>
       </article>
     </>
   );

@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     padding: 1rem;
     grid-gap:1rem;
+    background-color: black;
 }
 
 .auto-responsive-cards > div {
